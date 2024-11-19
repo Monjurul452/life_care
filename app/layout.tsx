@@ -52,6 +52,8 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
             <WelcomeToast />
           </main>
         </CartProvider>
+        <meta property="Economist" content="Link preview site name">
+          <meta property="https://economist.jdevcloud.com/" content="Canonical link preview URL">
       </body>
     </html>
   );
